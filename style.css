@@ -232,7 +232,7 @@ main {
 }
 
 .callout {
-    border: 5px solid color-mix(in srgb, var(--accent) 30%, transparent);;
+    border: 5px solid color-mix(in srgb, var(--accent) 35%, transparent);;
     background: #fff8e8;
     padding: 15px 17px;
     border-radius: 10px;
@@ -245,7 +245,7 @@ main {
 }
 
 .warn {
-    border-color: color-mix(in srgb, var(--danger) 30%, transparent);
+    border-color: color-mix(in srgb, var(--danger) 35%, transparent);
     background: #fff1f1
 }
 
@@ -260,7 +260,7 @@ main {
 }
 
 .good {
-    border-color: color-mix(in srgb, var(--secondary) 30%, transparent);
+    border-color: color-mix(in srgb, var(--secondary) 35%, transparent);
     background: #ecfbf6
 }
 
