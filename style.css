@@ -232,7 +232,7 @@ main {
 }
 
 .callout {
-    border: 5px solid var(--accent);
+    border: 5px solid color-mix(in srgb, var(--accent) 30%, transparent);;
     background: #fff8e8;
     padding: 15px 17px;
     border-radius: 10px;
