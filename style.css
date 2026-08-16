@@ -96,10 +96,6 @@ h1 {
     font-size: 1.08rem
 }
 
-.progress-wrap {
-    margin-top: 24px;
-    max-width: 620px
-}
 
 .progress-label {
     display: flex;
