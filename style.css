@@ -260,7 +260,7 @@ main {
 }
 
 .good {
-    border-color: var(--secondary);
+    border-color: color-mix(in srgb, var(--secondary) 30%, transparent);
     background: #ecfbf6
 }
 
