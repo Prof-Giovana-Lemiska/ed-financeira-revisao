@@ -33,7 +33,7 @@ button {
 }
 
 .hero {
-    background: linear-gradient(135deg, #30278f, #6557e8 55%, #00a884);
+    background: linear-gradient(135deg, #441d5a, rgb(172, 87, 232) 55%, #197360);
     color: #fff;
     padding: 46px 20px 38px;
     position: relative;
