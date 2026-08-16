@@ -245,7 +245,7 @@ main {
 }
 
 .warn {
-    border-color: var(--danger);
+    border-color: color-mix(in srgb, var(--danger) 30%, transparent);;
     background: #fff1f1
 }
 
