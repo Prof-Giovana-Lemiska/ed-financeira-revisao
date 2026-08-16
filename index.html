@@ -15,10 +15,6 @@
       <h1>Bora revisar investimentos?</h1>
       <p>Prepare-se para a prova entendendo os conceitos — não apenas decorando respostas. Explore os tópicos, vire os
         cartões e teste seus conhecimentos.</p>
-      <div class="progress-wrap">
-        <div class="progress-label"><span>Progresso da revisão</span><strong id="progressText">0%</strong></div>
-        <div class="progress"><span id="progressBar"></span></div>
-      </div>
     </div>
   </header>
 
@@ -328,8 +324,6 @@
       let seen = 0;
       sections.forEach(id => {const r = document.getElementById(id).getBoundingClientRect(); if (r.top < window.innerHeight * .72) seen++});
       const pct = Math.round(seen / sections.length * 100);
-      document.getElementById("progressBar").style.width = pct + "%";
-      document.getElementById("progressText").textContent = pct + "%";
     }
     window.addEventListener("scroll", updateProgress); updateProgress();
   </script>
