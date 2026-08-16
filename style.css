@@ -3,10 +3,10 @@
     --card: #fff;
     --text: #182033;
     --muted: #667085;
-    --primary: #5b4bdb;
-    --secondary: #00a884;
-    --accent: #ffb020;
-    --danger: #e5484d;
+    --primary: #847ad3;
+    --secondary: #088253;
+    --accent: #1e1ea4;
+    --danger: #aa0b11;
     --line: #e5e7eb;
     --shadow: 0 10px 30px rgba(30, 41, 59, .08);
 }
@@ -309,7 +309,7 @@ main {
 
 .incorrect {
     background: #fff0f0;
-    color: #b42318
+    color: #b50c00
 }
 
 .btn {
@@ -377,7 +377,7 @@ main {
 .back {
     transform: rotateY(180deg);
     background: #f0efff;
-    color: #30278f;
+    color: #9500b2;
     font-weight: 600
 }
 
