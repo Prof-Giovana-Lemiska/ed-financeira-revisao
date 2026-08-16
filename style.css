@@ -264,10 +264,7 @@ main {
     background: #ecfbf6
 }
 
-.warn {
-    border-color: var(--danger);
-    background: #fff1f1
-}
+
 
 .quiz-question {
     border: 1px solid var(--line);
