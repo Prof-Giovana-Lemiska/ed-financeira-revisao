@@ -233,6 +233,7 @@ main {
 
 .callout {
     border-left: 5px solid var(--accent);
+    border-right: 5px solid var(--accent);
     background: #fff8e8;
     padding: 15px 17px;
     border-radius: 10px;
@@ -241,11 +242,13 @@ main {
 
 .good {
     border-left-color: var(--secondary);
+    border-right-color: var(--secondary);
     background: #ecfbf6
 }
 
 .warn {
     border-left-color: var(--danger);
+    border-right-color: var(--danger);
     background: #fff1f1
 }
 
